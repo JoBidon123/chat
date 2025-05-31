@@ -5,30 +5,19 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "script": "node server"
+    "start": "node server"
   },
   "engines": {
     "node": "14.x"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JoBidon123/chat.git"
-  },
-  "keywords": [
-    "nodejs",
-    "chat"
-  ],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JoBidon123/chat/issues"
-  },
-  "homepage": "https://github.com/JoBidon123/chat#readme",
   "dependencies": {
-    "crypto": "^1.0.1",
-    "socket.io": "^4.8.1",
-    "soket.io": "^0.0.1-security",
-    "sqlite": "^5.1.1",
-    "sqlite3": "^5.1.7"
+    "cookie": "^0.5.0",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.3",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.2"
   }
 }
+
